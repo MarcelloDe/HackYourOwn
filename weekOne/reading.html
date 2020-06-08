@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>reading</title>
+
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<body>
+	
+
+
+	<style>
+
+*{
+background-color: lightgreen;
+}
+
+tr{
+  border-radius: 20px;
+
+}
+
+td, th, tr{
+  border:2px solid blue;
+  border-collapse:collapse;
+}
+
+		table{
+		font-family: arial, sans-serif;
+		border-collapse:collapse;
+		width:100%;
+		border:1px solid;
+		border-collapse: collapse;
+
+	}
+
+	body{
+		font-size:20px;
+		font-family: arial;
+
+	}
+table{
+	width: 100%;
+}
+	td,th {
+		border:1px solid #dddd;
+		padding: 8px;
+	}
+table, th, td {
+  border: 1px solid black;
+}
+
+.tit{
+  font-size:14pt;
+  color:red;
+  font-weight: bold;
+
+}
+</style>
+
+<script>
+	function myFunc(){
+document.getElementById("hello").innerHTML = "Awesome!";
+document.getElementById("hello").style.backgroundColor = "green";
+document.getElementById("hello").style.color = "red";
+
+	}
+
+function secondFunc(){
+	document.getElementById("new").style.backgroundColor = "grey";
+}
+</script>
+
+
+</head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<body>
+  <a name="reading"></a> 
+
+<nav>
+	<div>
+    <a class = "dropdown-item" href="index.html">Home </a>
+    <a class = "dropdown-item"href="about.html">About Me </a>
+    <a class = "dropdown-item"href="https://www.linkedin.com/in/marcellodefilippis/" target="_blank">Contact </a>
+    <a class = "dropdown-item" href="gallery.html">Gallery</a>
+    <a class = "dropdown-item" href="https://www.github.com" target="_blank">Projects</a>
+    <a class = "dropdown-item" href="reading.html">Books</a>
+            </div>
+        </nav>
+
+
+<h1 id="hello"> Reading List</h1>
+<table id="new">
+  <tr>
+    <th>Books To Read</th>
+    <th> read?</th>
+
+    <tr>
+      <td>
+<p><span class="tit"> God Help The Child</span><br> 
+by Toni Morrison</p>
+    	<td><input type="checkbox" name="read" value="read"
+></td>
+    </tr>
+  </tr>
+  <tr>
+    <td>
+<p><span class="tit"> Blood Meridian</span><br> 
+by Cormac McCarthy</p>
+<td><input type="checkbox" name="read" value="read"
+></td>
+  </tr>
+
+  <tr>
+<td>
+<p><span class="tit"> Bury My Heart and Wounded Knee</span><br> by Dee Brown</p>
+<td><input type="checkbox" name="read" value="read"
+></td>
+  </tr>
+
+  <tr>
+<td>
+<p><span class="tit"> Snow Crash</span><br> by Neal Stephenson</p>
+<td><input type="checkbox" name="read" value="read"
+></td>
+  </tr>
+  
+</table>
+
+<button type="button" onclick="myFunc();secondFunc()">All done?</button>
+
+</body>
+</html>

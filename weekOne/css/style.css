@@ -1,0 +1,141 @@
+body {
+	background:url(../images/grey.png);
+	font:12px/18px arial;
+	color:#717171;
+	margin:0;
+	padding:0;
+	position:relative;
+}
+
+
+main{
+	background:url(../images/back.jpg)50%;
+	background-repeat: no-repeat;
+	font:12px/18px arial;
+	color:#717171;
+
+}
+
+
+header{
+	position:relative;
+	width:950px;
+	margin:0px auto;
+	padding:80px 0 0 0 ;
+	background:url(../images/back.jpg)no-repeat center 80px;
+	z-index: 2;
+}
+
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+nav{
+	float:right;
+	padding:12px 0 0 0 ;
+}
+
+.menu ul{
+	position:absolute;
+	top:-999em;
+	left:0;
+	display:none;
+	width:185px;
+	min-height:28px;
+}
+
+.menu li{
+	position:relative;
+	float:left;
+	margin:0 28px;
+}
+
+.menu li a{
+	text-decoration: none;
+	display:block;
+	font-family:'arial';
+	font-size:14px;
+	line-height:18px;
+	text-transform:uppercase;
+	color:white
+	padding:10px 0 0 0;
+}
+
+.menu li:hover a, .menu li.current a{
+	color:black;
+	background:url(../images/nav-active.png) no-repeat  0;
+
+}
+
+
+header{
+	position: relative;
+	width:950px;
+	margin:0px auto;
+	padding:80px 0 0 0;
+	background:url(../images/slide-1.jpg);
+}
+.inner{
+	background:url(../images/back.jpg);
+	padding:16px 10px 25px 10px;
+	position:relative;
+	z-index:2;
+}
+
+
+p.one {
+	border-style:solid;
+	border-width:5px;
+}
+
+/* next is padding and margin*/
+p {
+	border:1px solid powderblue;
+	padding:50px;
+	margin: 50px;
+	text-align: center;
+}
+
+.content-bg{
+	background:url(../images/swirl.png);
+	padding:35px 20px 43px 20px;
+}
+
+.slider{
+	position:relative;
+	z-index:1;
+	height:402px;
+}
+
+.mp-slider{
+	position:absolute;
+	top:70px;
+	left:0px;
+	right:0px;
+	bottom:50px;
+}
+.mp-prev, .mp-next{
+	position:absolute;
+	width:31px;
+	height:402px;
+	bottom:0;
+	z-index:3;
+}
+.mp-prev{
+	left:0;
+	background:url(../images/slider-prev.png) no-repeat 0 0;
+}
+.mp-next{
+	right:0;
+	background:url(../images/slider-next.png) no-repeat 0 0;
+}
+.mp-prev:hover{
+
+	background:url(../images/slider-prev.png) no-repeat right 0;  
+}
+.mp-next:hover{
+
+	background:url(../images/slider-next.png) no-repeat right 0;  
+}

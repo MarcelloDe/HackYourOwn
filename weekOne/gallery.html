@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 50%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 100%;
+    margin: 6px 0;
+  }
+
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+img {
+  width: 600px;
+  height: 400px;
+}
+
+</style>
+</head>
+<body>
+
+<h2> Image Gallery</h2>
+<nav>
+  <div>
+    <a class = "dropdown-item" href="index.html">Home </a>
+             <a class = "dropdown-item"href="about.html">About Me </a>
+			       <a class = "dropdown-item"href="https://www.linkedin.com/in/marcellodefilippis/" target="_blank">Contact </a>
+             <a class = "dropdown-item" href="gallery.html">Gallery</a>
+             <a class = "dropdown-item" href="https://www.github.com" target="_blank">Projects</a>
+             <a class = "dropdown-item" href="reading.html">Books</a>
+            </div>
+        </nav>
+        <br>
+        
+
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="images/pic0.jpg">
+    </a>
+    <div class="desc">Yonge and College (Toronto,ON)</div>
+  </div>
+</div>
+
+
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="images/pic1.jpg">
+    </a>
+    <div class="desc">Royal Botanical Gardens (Burlington, ON)</div>
+  </div>
+</div>
+
+
+
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="images/pic4.jpg">
+    </a>
+    <div class="desc">Toronto Christmas Market Distillery District (Toronto,ON)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="images/pic3.jpg">
+    </a>
+    <div class="desc">Friend of Mine (Sauble Beach, ON)</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+      <img src="images/pic2.jpg">
+    </a>
+    <div class="desc">Kensington Market  (Toronto,ON) </div>
+  </div>
+</div>
+
+
+<div class="clearfix"></div>
+
+</body>
+</html>]
+}
